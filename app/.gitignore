@@ -1,64 +1,37 @@
-# ===============================
 # Android / Gradle
-# ===============================
 *.apk
 *.aab
-*.ap_
 *.dex
 *.class
 
-# Generated directories
-bin/
-gen/
-out/
-
-# Gradle
 .gradle/
 build/
 **/build/
 
-# Local config
 local.properties
 
-# Logs
-*.log
-
-# ===============================
 # Android Studio / IntelliJ
-# ===============================
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# Navigation editor
 .navigation/
-
-# Captures (screenshots, profiling)
 captures/
 
-# Native build
 .externalNativeBuild/
 .cxx/
 
-# ===============================
 # Kotlin
-# ===============================
 *.kotlin_module
 
-# ===============================
-# Firebase / Google Services
-# ===============================
+# Firebase
 google-services.json
 
-# ===============================
-# Keystore (NO subir)
-# ===============================
+# Keystore
 *.jks
 *.keystore
 
-# ===============================
 # OS
-# ===============================
 .DS_Store
 Thumbs.db
